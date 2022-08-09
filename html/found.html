@@ -13,58 +13,99 @@
   </head>
 
   <body>
-    <section class="text-gray-600 body-font my-10">
-      <div class="container px-5 py-15 mx-auto">
-        <div class="flex flex-col text-center w-full mb-12">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-            NATIONAL TRACKING SYSTEM for MISSING & VULNERABLE CHILDREN
-          </h1>
-        </div>
+    <div
+      class="header w-full max-w-screen-xl items-center mx-auto flex flex-row justify-between p-2 md:justify-between justify-center my-5 px-4"
+    >
+      <div class="flex justify-around">
+        <img
+        class="h-full md:block hidden"
+        src="images/head.png"
+        alt=""
+      />
       </div>
-    </section>
-
-    <header class="text-gray-600 body-font">
-      <div class="container mx-auto flex flex-wrap p-10 flex-col md:flex-row items-center">
-        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
-            stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-            viewBox="0 0 24 24" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor">
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-          </svg>
-          <span class="ml-3 text-xl">Talaash</span>
-        </a>
-        <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-          <a class="mr-5 hover:text-gray-900 cursor-pointer"><i class="fa-solid fa-house"></i> Home</a>
-          <a class="mr-5 hover:text-gray-900 cursor-pointer"><i class="fa-solid fa-circle-info"></i> About Tracking
-            Portal</a>
-          <a class="mr-5 hover:text-gray-900 cursor-pointer"><i class="fa-solid fa-bullhorn"></i> Notice Board</a>
-          <a class="mr-5 hover:text-gray-900 cursor-pointer"><i class="fa-solid fa-user-group"></i> Feedback</a>
-          <a class="mr-5 hover:text-gray-900 cursor-pointer"><i class="fa-solid fa-download"></i> Children related
-            law</a>
-        </nav>
-        <button
-        onclick="photo1.html"
-          class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-          Back
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            class="w-4 h-4 ml-1" viewBox="0 0 24 24" data-darkreader-inline-stroke=""
-            style="--darkreader-inline-stroke: currentColor">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </button>
+     
+      <div
+        class="text-center text-xl font-bold md:w-1/3 w-full h-full flex flex-col"
+        style="height: 50%"
+      >
+        <p style="color: green" class="">NATIONAL TRACKING SYSTEM</p>
+        <p class="line-around"><span>for</span></p>
+        <p style="color: orange" class="">MISSING & VULNERABLE PEOPLE</p>
       </div>
-    </header>
+      <img
+        class="h-full md:block hidden"
+        src="https://trackthemissingchild.gov.in/trackchild/images/logo.png"
+        alt=""
+      />
+    </div>
+    <div class="nav" style="background-color: #395B64; color:white">
+      <div
+        class="flex w-full max-w-screen-xl items-center mx-auto flex lg:flex-row flex-col justify-between px-4 uppercase font-semibold"
+      >
+        <div class="cursor-pointer hover:underline"><i class="fa-solid fa-house py-3 pr-1"></i><a href="#">Home</a></div>
+        <div class="cursor-pointer hover:underline"><i class="fa-solid fa-circle-info py-3 pr-1"></i><a href="html/about.html">about trackchild</a></div>
+        <div class="cursor-pointer hover:underline"><i class="fa-solid fa-exclamation py-3 pr-1"></i><a href="#">notice board</a></div>
+        <div class="cursor-pointer hover:underline"><i class="fa-solid fa-people-group py-3 pr-1"></i><a href="#">stakeholder's login</a></div>
+        <div class="cursor-pointer hover:underline"><i class="fa-solid fa-comment-dots py-3 pr-1"></i><a href="html/feedback.html">feedback</a></div>
+        <div class="cursor-pointer hover:underline"><i class="fa-solid fa-gavel py-3 pr-1"></i><a href="#">children related law</a></div>
+      </div>
+    </div>
 
     <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto" style="margin: 1rem ; margin-left: 1.5rem;">
-          <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" style="font-size: 2rem;">Recovered Photograph Gallery</h1>
+          <div class="flex flex-col text-center w-full mb-20" >
+            <h1 class="sm:text-3xl text-2xl p-2 font-medium title-font mb-4 text-black" style="background-color: #A5C9CA">Recovered Photograph Gallery</h1>
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base" style="font-size: 1.5rem;">Kindly try to locate the family members of these people.<br> Hover over the image of the pereson to see his basic details.</p>
           </div>
-          <div class="flex flex-wrap -m-4" style="border: 0.2rem solid  #667EEA; border-radius: 2rem">
-            <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+          
+          <div class="flex flex-wrap  justify-between m-12 border-2 border-gray-200 p-4 " style="background-color: #A5C9CA" >
+            <div>          
+              <label class="text-xl text-black" for="filter">Filter by Categories : </label>
+            </div>
+            <div class="flex w-21 h-4 leading-15">
+              <input class="m-1 p-0 h-5 w-4"
+                type="radio"
+                id="all"
+                value="all"
+                name="filter"
+                checked
+              />
+              <label class="text-xl text-black" for="all">All Recovered</label>
+            </div>
+            <div class="flex w-21 h-4 leading-15">
+              <input class="m-1 p-1 h-5 w-4"
+                type="radio"
+                id="children"
+                value="children"
+                name="filter"
+              />
+              <label  class="text-xl text-black" for="children">Recovered Children</label>
+            </div>
+            <div class="flex  w-21 h-4 leading-15">
+              <input class="m-1 p-1 h-5 w-4"
+                type="radio"
+                id="male"
+                value="male"
+                name="filter"
+                required
+              />
+              <label  class="text-xl  text-black"for="male">Recovered Male</label>
+            </div>
+            <div class="flex w-21 h-4 leading-15">
+              <input class="m-1 p-1 h-5 w-4"
+                type="radio"
+                id="female"
+                value="female"
+                name="filter"
+              />
+              <label  class="text-xl text-black" for="female">Recovered Female</label>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap justify-evenly pb-8 pr-4" style="border: 0.2rem solid  #395B64; border-radius: 1rem; margin-left: 8px;">
+            <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height:9rem ; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height:9rem">
+                  <img alt="gallery" class=" border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -72,9 +113,9 @@
                   </div>
                 </div>
               </div>
-            <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+            <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height:9rem ; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height:9rem">
+                  <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -82,9 +123,9 @@
                   </div>
                 </div>
               </div>
-            <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+            <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height:9rem ; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height:9rem">
+                  <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -92,9 +133,9 @@
                   </div>
                 </div>
               </div>
-            <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+            <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height: 9rem ; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height: 9rem">
+                  <img alt="gallery" class=" border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -102,9 +143,9 @@
                   </div>
                 </div>
               </div>
-          <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-            <div class="flex relative" style="width: 10rem ; height:10rem">
-              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+          <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height: 9rem ; margin: 1.5rem">
+            <div class="flex relative" style="width: 9rem ; height: 9rem">
+              <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
               <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                 <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                 <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -112,9 +153,9 @@
               </div>
             </div>
           </div>
-            <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+            <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height:9rem ; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height:9rem">
+                  <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -123,9 +164,9 @@
                 </div>
               </div>
 
-              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height:9rem ; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height:9rem">
+                  <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -133,9 +174,9 @@
                   </div>
                 </div>
               </div>
-              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height: 9rem ; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height: 9rem">
+                  <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -143,9 +184,9 @@
                   </div>
                 </div>
               </div>
-              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height: 9rem; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height: 9rem">
+                  <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -153,9 +194,9 @@
                   </div>
                 </div>
               </div>
-              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height: 9rem ; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height: 9rem">
+                  <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -163,9 +204,9 @@
                   </div>
                 </div>
               </div>
-              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height: 9rem ; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height: 9rem">
+                  <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -173,9 +214,9 @@
                   </div>
                 </div>
               </div>
-              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height: 9rem ; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height: 9rem">
+                  <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -183,9 +224,9 @@
                   </div>
                 </div>
               </div>
-              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height: 9rem ; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height: 9rem">
+                  <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -193,9 +234,9 @@
                   </div>
                 </div>
               </div>
-              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height: 9rem; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height: 9rem">
+                  <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -203,9 +244,9 @@
                   </div>
                 </div>
               </div>
-              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height: 9rem ; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height: 9rem">
+                  <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -213,9 +254,9 @@
                   </div>
                 </div>
               </div>
-              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height: 9rem ; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height: 9rem">
+                  <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -223,9 +264,9 @@
                   </div>
                 </div>
               </div>
-              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height: 9rem; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height: 9rem">
+                  <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -233,9 +274,9 @@
                   </div>
                 </div>
               </div>
-              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 10rem ; height:10rem ; margin: 1.5rem">
-                <div class="flex relative" style="width: 10rem ; height:10rem">
-                  <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
+              <div class="lg:w-1/3 sm:w-1/2 p-4" style="width: 9rem ; height: 9rem; margin: 1.5rem">
+                <div class="flex relative" style="width: 9rem ; height: 9rem">
+                  <img alt="gallery" class="border-2 border-gray-500 rounded-lg absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" style="width: 10rem ; height:10rem">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100" style="width: 10rem ; height:10rem">
                     <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1" style="font-size: 0.9rem">Name</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3" style="font-size: 0.8rem">age</h1>
@@ -249,30 +290,30 @@
 
     
 
-    <div class="footer">
+    <div class="footer" style="background-color: #395B64;">
 
         <div class="alllinks">
             <div class="mainlinks">
                 <h2>information</h2>
                 <div class="smalllinks">
-                    <a href="">about the initiative</a>
-                    <a href="">objectives</a>
-                    <a href="">important legistations and orders</a>
-                    <a href="">your local help</a>
+                    <a href="html/about.html" class="hover:underline">about the initiative</a>
+                    <a href="" class="hover:underline">objectives</a>
+                    <a href="" class="hover:underline">important legistations and orders</a>
+                    <a href="" class="hover:underline">your local help</a>
                 </div>
             </div>
             <div id="keyContacts" class="mainlinks">
                 <h2>key Contacts</h2>
                 <div class="smalllinks">
-                    <a href="">administrative</a>
-                    <a href="">Nic-Nodal officers</a>
-                    <a href="">contact persons of states</a>
+                    <a href="" class="hover:underline">administrative</a>
+                    <a href="" class="hover:underline">Nic-Nodal officers</a>
+                    <a href="" class="hover:underline">contact persons of states</a>
                 </div>
             </div>
             <div id="Technical" class="mainlinks">
                 <h2>Technical help</h2>
                 <div class="smalllinks">
-                    <a id="email" href="">techsupport-vatsalya@gov.in</a>
+                    <a id="email" href="" class="hover:underline">techsupport-vatsalya@gov.in</a>
                     <div class="icons">
                         <img id="fb" src="./images/facebook.png" alt="">
                         <img id="twt" src="./images/twitter.png" alt="">

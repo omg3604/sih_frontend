@@ -13,52 +13,49 @@
   </head>
 
   <body>
-    <section class="text-gray-600 body-font my-10">
-      <div class="container px-5 py-15 mx-auto">
-        <div class="flex flex-col text-center w-full mb-12">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-            NATIONAL TRACKING SYSTEM for MISSING & VULNERABLE CHILDREN
-          </h1>
-        </div>
+    <div
+      class="header w-full max-w-screen-xl items-center mx-auto flex flex-row justify-between p-2 md:justify-between justify-center my-5 px-4"
+    >
+      <div class="flex justify-around">
+        <img
+        class="h-full md:block hidden"
+        src="images/head.png"
+        alt=""
+      />
       </div>
-    </section>
-
-    <header class="text-gray-600 body-font">
-      <div class="container mx-auto flex flex-wrap p-10 flex-col md:flex-row items-center">
-        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
-            stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-            viewBox="0 0 24 24" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor">
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-          </svg>
-          <span class="ml-3 text-xl">Talaash</span>
-        </a>
-        <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-          <a class="mr-5 hover:text-gray-900 cursor-pointer"><i class="fa-solid fa-house"></i> Home</a>
-          <a class="mr-5 hover:text-gray-900 cursor-pointer"><i class="fa-solid fa-circle-info"></i> About Tracking
-            Portal</a>
-          <a class="mr-5 hover:text-gray-900 cursor-pointer"><i class="fa-solid fa-bullhorn"></i> Notice Board</a>
-          <a class="mr-5 hover:text-gray-900 cursor-pointer"><i class="fa-solid fa-user-group"></i> Feedback</a>
-          <a class="mr-5 hover:text-gray-900 cursor-pointer"><i class="fa-solid fa-download"></i> Children related
-            law</a>
-        </nav>
-        <button
-          class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-          Button
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            class="w-4 h-4 ml-1" viewBox="0 0 24 24" data-darkreader-inline-stroke=""
-            style="--darkreader-inline-stroke: currentColor">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </button>
+     
+      <div
+        class="text-center text-xl font-bold md:w-1/3 w-full h-full flex flex-col"
+        style="height: 50%"
+      >
+        <p style="color: green" class="">NATIONAL TRACKING SYSTEM</p>
+        <p class="line-around"><span>for</span></p>
+        <p style="color: orange" class="">MISSING & VULNERABLE PEOPLE</p>
       </div>
-    </header>
+      <img
+        class="h-full md:block hidden"
+        src="https://trackthemissingchild.gov.in/trackchild/images/logo.png"
+        alt=""
+      />
+    </div>
+    <div class="nav" style="background-color: #395B64; color:white">
+      <div
+        class="flex w-full max-w-screen-xl items-center mx-auto flex lg:flex-row flex-col justify-between px-4 uppercase font-semibold"
+      >
+        <div class="cursor-pointer hover:underline"><i class="fa-solid fa-house py-3 pr-1"></i><a href="#">Home</a></div>
+        <div class="cursor-pointer hover:underline"><i class="fa-solid fa-circle-info py-3 pr-1"></i><a href="#">about trackchild</a></div>
+        <div class="cursor-pointer hover:underline"><i class="fa-solid fa-exclamation py-3 pr-1"></i><a href="#">notice board</a></div>
+        <div class="cursor-pointer hover:underline"><i class="fa-solid fa-people-group py-3 pr-1"></i><a href="#">stakeholder's login</a></div>
+        <div class="cursor-pointer hover:underline"><i class="fa-solid fa-comment-dots py-3 pr-1"></i><a href="#">feedback</a></div>
+        <div class="cursor-pointer hover:underline"><i class="fa-solid fa-gavel py-3 pr-1"></i><a href="#">children related law</a></div>
+      </div>
+    </div>
 
-    <div class="middle">
+    <div class="middle" style="margin-top: 3rem">
         <div class="box">
-            <div class="top1">
+            <div class="top1" style="background-color: lightblue;">
                 <img src="logo.png" alt="">
-                <h2>police station</h2>
+                <h2  style="color: black; font-size: 2.5rem;">police station</h2>
             </div>
             <div class="bottom">
             <div class="btm1">
@@ -70,8 +67,8 @@
                     <input id="security" type="text" placeholder="Security">
                 </div>
                 <div class="buttons">
-                    <button id="back" class="btn">back</button>
-                    <button id="login" class="btn">login</button>
+                    <button id="back" class="btn" style="color:black">back</button>
+                    <button id="login" class="btn" style="background-color: lightblue;color:black">login</button>
                     </div>
                     <h3>forgot password ?</h3>
                 </div>
@@ -79,44 +76,43 @@
         </div>
     </div> 
 
-    <div class="footer">
+    <div class="footer" style="background-color: #395B64">
 
-        <div class="alllinks">
-            <div class="mainlinks">
-                <h2>information</h2>
-                <div class="smalllinks">
-                    <a href="">about the initiative</a>
-                    <a href="">objectives</a>
-                    <a href="">important legistations and orders</a>
-                    <a href="">your local help</a>
-                </div>
-            </div>
-            <div id="keyContacts" class="mainlinks">
-                <h2>key Contacts</h2>
-                <div class="smalllinks">
-                    <a href="">administrative</a>
-                    <a href="">Nic-Nodal officers</a>
-                    <a href="">contact persons of states</a>
-                </div>
-            </div>
-            <div id="Technical" class="mainlinks">
-                <h2>Technical help</h2>
-                <div class="smalllinks">
-                    <a id="email" href="">techsupport-vatsalya@gov.in</a>
-                    <div class="icons">
-                        <img id="fb" src="./images/facebook.png" alt="">
-                        <img id="twt" src="./images/twitter.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="last">
-            <p>All efforts have been made to make the information as accurate as possible, MWCD, Govt. of India or National Informatics Centre (NIC), will not be responsible for any loss to any person <br> caused by inaccuracy in the information available on this Website. Any discrepancy found may be brought to the notice of MWCD or NIC. <br>
-                Copyright © 2019 - 2020 www.trackthemissingchild.gov.in - All Rights Reserved | Designed and Developed by  </p>
-                <img id="niclogo" src="https://trackthemissingchild.gov.in/trackchild/images/nic_logo.png" alt="">  
-        </div>
-    </div>
-    
+      <div class="alllinks">
+          <div class="mainlinks">
+              <h2>information</h2>
+              <div class="smalllinks">
+                  <a href="" class="hover:underline">about the initiative</a>
+                  <a href="" class="hover:underline">objectives</a>
+                  <a href="" class="hover:underline">important legistations and orders</a>
+                  <a href="" class="hover:underline">your local help</a>
+              </div>
+          </div>
+          <div id="keyContacts" class="mainlinks">
+              <h2>key Contacts</h2>
+              <div class="smalllinks">
+                  <a href="" class="hover:underline">administrative</a>
+                  <a href="" class="hover:underline">Nic-Nodal officers</a>
+                  <a href="" class="hover:underline">contact persons of states</a>
+              </div>
+          </div>
+          <div id="Technical" class="mainlinks">
+              <h2>Technical help</h2>
+              <div class="smalllinks">
+                  <a id="email" href="" class="hover:underline">techsupport-vatsalya@gov.in</a>
+                  <div class="icons">
+                      <img id="fb" src="./images/facebook.png" alt="">
+                      <img id="twt" src="./images/twitter.png" alt="">
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="last">
+          <p>All efforts have been made to make the information as accurate as possible, MWCD, Govt. of India or National Informatics Centre (NIC), will not be responsible for any loss to any person <br> caused by inaccuracy in the information available on this Website. Any discrepancy found may be brought to the notice of MWCD or NIC. <br>
+              Copyright © 2019 - 2020 www.trackthemissingchild.gov.in - All Rights Reserved | Designed and Developed by  </p>
+              <img id="niclogo" src="https://trackthemissingchild.gov.in/trackchild/images/nic_logo.png" alt="">  
+      </div>
+  </div>
   </body>
 
   </html>
