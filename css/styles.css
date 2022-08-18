@@ -1,8 +1,8 @@
 .rec{
-    width: 85%;
-    height: 1000px;
     border:  2px solid black;
     margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
     padding: 26px;
 }
 
@@ -24,8 +24,8 @@
 }
 
 .rec p{
-    font-size: 14px;
-    font-family: "gilroy";
+    font-size: 15px;
+    font-family: Georgia, serif;
     font-weight: 500;
     line-height: 30px;
 }
